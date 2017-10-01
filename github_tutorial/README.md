@@ -172,5 +172,5 @@ pushするのはあくまでプログラムだけ。
 自分のPCで作業しつつ、サーバー上で小さなバグ取りなどをして横着すると、pullなどを行う際にコンフリクトが発生しpullが中断されます。  
 そのようなときは、コンフリクトを解消する必要があります。  
 詳細はググるか、以下のようなサイトで。  
-https://www.backlog.jp/git-guide/stepup/stepup2_7.html
+https://www.backlog.jp/git-guide/stepup/stepup2_7.html  
 https://qiita.com/kota9/items/ae7506ee52ff3380309b
