@@ -1,5 +1,5 @@
 # semi_tutorial
-ゼミのチュートリアル用
+ゼミの方々への様々なツールのチュートリアル用
 
 ## Githubを使おう
 [Github](https://github.com)とは、自分が書いたコードの保存・公開ができるWebサービスです。
