@@ -66,14 +66,14 @@ originの部分は基本的にいじることはない（はず…）。
 これを行うプロセスは以下のようになります。  
 キーワードは**fetch**, **merge**です。
 
-1. **fetch**でリモートリポジトリの状態をローカルリポジトリに読み込む。
+### 1. **fetch**でリモートリポジトリの状態をローカルリポジトリに読み込む。
 ```bash
 git fetch origin master
 ```
 「originのmasterブランチの状態をローカルリポジトリに読み込んでください」。  
 これによってorigin/masterというブランチ（枝）が作成されます。  
 
-2. **merge**で、現在いるブランチ（デフォルトのmasterブランチ）にorigin/masterブランチの状態を反映する。
+### 2. **merge**で、現在いるブランチ（デフォルトのmasterブランチ）にorigin/masterブランチの状態を反映する。
 ```bash
 git merge origin/maser
 ```
@@ -101,7 +101,7 @@ masterが元の状態のバックアップ・リファレンスの役割を果�
 ブランチを行って作業を行うプロセスは以下のようになります。  
 キーワードは**branch**, **checkout**です。
 
-1. **branch**で、大きな変更のための新しいブランチ(new_hoge)を作成する。
+### 1. **branch**で、大きな変更のための新しいブランチ(new_hoge)を作成する。
 ```bash
 git branch new_hoge
 ```
@@ -110,7 +110,7 @@ git branch new_hoge
 なお`git branch`のみで、現在ローカルリポジトリに存在するブランチが確認できます。  
 デフォルトの状態だとmasterのみです。
 
-2. **checkout**で作業ブランチを変更する。
+### 2. **checkout**で作業ブランチを変更する。
 ```bash
 git checkout new_hoge
 ```
@@ -118,7 +118,7 @@ git checkout new_hoge
 作業ブランチがmasterからnew_hogeに移ります。  
 再び`git branch`で確認すると、作業ブランチを示す*がnew_hogeについているはずです。
 
-3. new_hogeで新しくファイルを追加したり、修正したりします。
+### 3. new_hogeで新しくファイルを追加したり、修正したりします。
 
 add -> commitを行い、
 ```bash
@@ -127,5 +127,5 @@ git push origin new_hoge
 「リモートリポジトリのnew_hogeブランチに変更を反映してください」。  
 これで、リモートリポジトリにnew_hogeでの変更を反映します。masterがnew_hogeになっていることに注意しましょう。  
 
-4. 3を繰り返し、変更を終えたら、masterブランチにmergeしてnew_hogeブランチを削除する。
+### 4. 3を繰り返し、変更を終えたら、masterブランチにmergeしてnew_hogeブランチを削除する。
 
