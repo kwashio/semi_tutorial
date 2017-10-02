@@ -24,7 +24,7 @@ Githubの無料アカウントでは、基本的にPrivateリポジトリを作�
 pythonの仮想環境を構築すれば、そのような問題を避けることができます。  
 研究・プロダクトごとにpythonのバージョンを分けたり、サーバー上でそれぞれコードを動かす人が別のバージョンのpythonを用いることができます。
 
-今回はAnaconda(Miniconda)というpythonのパッケージ管理ツール（ディストリビューション）を使って、仮想環境の構築を行います。
+今回はAnaconda(Miniconda)というpythonのパッケージ管理ツールを使って、仮想環境の構築を行います。
 
 ## Jupyter Notebookを使おう
 Jupyter Notebookを用いるとpythonによる処理過程や実行結果の履歴を見つつ、
