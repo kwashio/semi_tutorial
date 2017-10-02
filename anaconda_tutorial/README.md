@@ -109,7 +109,7 @@ hogeをactivateして、色々な作業をした後は、仮想環境を閉じ�
 ```bash
 source deactivate
 ```
-で閉じることができます。　　
+で閉じることができます。  
 `conda info -e`で確認すると、再びrootに`*`がついているはずです。
 
 ## まとめ
