@@ -35,7 +35,7 @@ Jupyter Notebookを用いるとpythonによる処理過程や実行結果の履�
 
 
 
-## Pythonプログラミング発展(python_tutorial)
+## Pythonプログラミング初級発展(python_tutorial)
 この一連のチュートリアルの最終的な目的はGithubやJupyter Notebookなどを紹介しつつ、
 pythonの基礎がある程度できている方々を、Chainerを用いてEncoder-Decoder+Attentionモデルを実装するところまで、
 導くのが目的です。
