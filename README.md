@@ -36,8 +36,6 @@ Jupyter Notebookを用いるとpythonによる処理過程や実行結果の履�
 
 
 ## Pythonプログラミング発展
-ディープラーニングがやりたいかー！  
-
 このチュートリアルの目的はGithubやJupyter Notebookなどを紹介しつつ、
 pythonの基礎ができている方々をChainerを用いてEncoder-Decoder+Attentionモデルを記述するところまで、
 導くのが目的です。
