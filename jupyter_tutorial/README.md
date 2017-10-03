@@ -23,4 +23,4 @@ jupyter notebook
 
 ## ノートブックを作る
 右上の`New`から、`Notebooks > python2 or python3`で新しいノートブックが作ることができます。  
-以降の説明はノートブックで行います。
+以降の説明はノートブック`jupyter_tutorial.ipynb`で行います。
