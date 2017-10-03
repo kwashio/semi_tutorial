@@ -36,9 +36,10 @@ Jupyter Notebookを用いるとpythonによる処理過程や実行結果の履�
 
 
 ## Pythonプログラミング発展(python_tutorial)
-このチュートリアルの目的はGithubやJupyter Notebookなどを紹介しつつ、
-pythonの基礎ができている方々をChainerを用いてEncoder-Decoder+Attentionモデルを記述するところまで、
+このチュートリアルの最終的な目的はGithubやJupyter Notebookなどを紹介しつつ、
+pythonの基礎がある程度できている方々を、Chainerを用いてEncoder-Decoder+Attentionモデルを記述するところまで、
 導くのが目的です。
 
 しかし、いきなりディープラーニングフレームワークを使ってモデルの記述を行う前に、pythonのクラスについて学習・復習しましょう。  
-可変長系列データを扱う自然言語処理のモデルを直感的に記述できるChainerやPyTorchのモデルの記述には、クラスが用いられます。
+可変長系列データを扱う自然言語処理のモデルを直感的に記述できるChainerやPyTorchのモデルの記述には、クラスが用いられます。  
+モデル記述の際に用いる、**クラス**と**継承**について、ざっと見ておきましょう。
