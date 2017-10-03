@@ -17,7 +17,7 @@ Githubの無料アカウントでは、基本的にPrivateリポジトリを作�
 学生用アカウントでは、５つまでPrivateリポジトリを作ることができます。
 登録方法などは[こちら](https://qiita.com/mtfum/items/d8c06c9a28ce04d3043a)を参照。
 
-## Pythonの仮想環境を使おう
+## Pythonの仮想環境 Anaconda を使おう(anaconda_tutorial)
 誰かの実装をGithubから落として、動かそうと思ったときに別バージョンのpythonを使っていて困ったりするかもしれません。  
 また複数人で同じサーバーで研究を行うときに、ライブラリの競合やpythonのバージョンの食い違いなどが起こったりすると、同様に困ることになります。  
 
@@ -26,7 +26,7 @@ pythonの仮想環境を構築すれば、そのような問題を避けるこ�
 
 今回はAnaconda(Miniconda)というpythonのパッケージ管理ツールを使って、仮想環境の構築を行います。
 
-## Jupyter Notebookを使おう
+## Jupyter Notebookを使おう(jupyter_tutorial)
 Jupyter Notebookを用いるとpythonによる処理過程や実行結果の履歴を見つつ、
 よりインタラクティブにプログラミング・分析を進めることができます。
 
@@ -35,7 +35,7 @@ Jupyter Notebookを用いるとpythonによる処理過程や実行結果の履�
 
 
 
-## Pythonプログラミング発展
+## Pythonプログラミング発展(python_tutorial)
 このチュートリアルの目的はGithubやJupyter Notebookなどを紹介しつつ、
 pythonの基礎ができている方々をChainerを用いてEncoder-Decoder+Attentionモデルを記述するところまで、
 導くのが目的です。
